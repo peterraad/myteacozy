@@ -4,23 +4,56 @@ body{
   font-size: 22px;
   color: seashell;
   opacity: .9;
+  text-align: center;
 }
-
 
 header {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   position: fixed;
   border-bottom: 1px solid seashell;
+  padding-bottom: 28px;
   height: 69px;
   width: 100%;
-  border: 1px solid white;
 }
+
 .headerimg{
   width: 50px;
   height: 10px;
 }
-.headernav span{
-    display: inline-block;
-    padding: 20px 10px;
-  }
+
+.headernav{
+  padding-top: 30px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+
+.content{
+  padding-top: 100px;
+}
+.ourmission{
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+.ourmissiontext{
+  background-color: black;
+  flex-grow: 1;
+}
+
+.teaofthemonth{
+  padding-left: 100px;
+  width: 1000px;
+}
+.tea img{
+  height: 200px;
+  width: 300px;
+}
+.teaitems{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
