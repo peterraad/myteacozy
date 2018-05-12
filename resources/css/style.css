@@ -6,22 +6,21 @@ body{
   opacity: .9;
 }
 
-.theheader img{
-  width: 50px;
-  height: 10px;
-}
-header{
+
+header {
   display: flex;
   align-items: center;
-
   position: fixed;
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
   border: 1px solid white;
 }
-header nav span{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.headerimg{
+  width: 50px;
+  height: 10px;
 }
+.headernav span{
+    display: inline-block;
+    padding: 20px 10px;
+  }
